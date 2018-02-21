@@ -170,10 +170,15 @@
   }
   
   .p-b-w > i{
+	  border-top: 1px solid white;
 	  display:block;
 	  background: rgba(0,0,0,0.7);
 	  margin-left: 52px;
 	  border-left: 2px solid #ffd700;
+  }
+  
+  .p-b-w > i:first-child{
+	  border: 0;
   }
   
   .p-b-w > div{
