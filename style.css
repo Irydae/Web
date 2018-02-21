@@ -170,6 +170,7 @@
   }
   
   .p-b-w > i{
+	  padding: 5px;
 	  border-top: 1px solid white;
 	  display:block;
 	  background: rgba(0,0,0,0.7);
@@ -178,7 +179,7 @@
   }
   
   .p-b-w > i:first-child{
-	  border: 0;
+	  border-top: 0;
   }
   
   .p-b-w > div{
