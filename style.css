@@ -125,6 +125,19 @@
   .tt:hover{
 	  transform: scaleY(1);
   }
+  
+  .te{
+	  height: 20px;
+	  border: 2px solid #ffd700;
+	  border-top: 0;
+	  background: rgba(0,0,0,0.7);
+	  margin-left: 52px;
+	  border-radius: 0 0 20px 20px;
+  }
+  
+  .tt:hover{
+	  transform: scaleY(1);
+  }
 
   .lieu{
     padding: 0 5px;
