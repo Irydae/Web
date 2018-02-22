@@ -157,6 +157,10 @@
 	min-height: 55px;
   }
   
+  .rpw.solo {
+	  min-height: 110px;
+  }
+  
   .rpw:last-child{
 	  border-bottom: 0;
   }
