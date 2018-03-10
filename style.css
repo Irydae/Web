@@ -276,11 +276,11 @@
   }
   
   .icon.besace:hover::after{
-	  content : "balance";
+	  content : "inventaire";
   }
   
   .icon.bourse:hover::after{
-	  content : "balance";
+	  content : "commerce";
   }
   
   .icon.carte:hover::after{
