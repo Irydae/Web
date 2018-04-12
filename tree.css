@@ -53,7 +53,7 @@
 }
 
 .tree input[type="checkbox"]:checked + .r-d{
-	border-top: 1px solid black;
+	border-top: 1px solid white;
 	height: 75px;
 }
 
