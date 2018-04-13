@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	min-height: 1000px;
 }
 
 .tree .content-wrapper input {
@@ -14,7 +13,7 @@
 .tree .rel{
 	position: absolute;
 	/*height: 200px;*/
-	width: 120px;
+	width: 150px;
 }
 
 .tree .r-f{
@@ -34,7 +33,7 @@
 }
 
 .tree .r-n{
-	width: 100px;
+	/*width: 100px;*/
 	color: white;
 }
 
