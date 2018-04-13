@@ -11,25 +11,15 @@
   cursor: pointer;
 }
 
-.tree .row{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: flex-start;
-}
-
 .tree .rel{
+	position: absolute;
 	background-image: url("https://rawgit.com/Irydae/Web/master/frame2.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding: 20px;
 	/*height: 200px;*/
-	width: 125px;
-}
-
-.tree .r-p{
-	display: table-row;
+	width: 120px;
 }
 
 .tree .r-p img{
