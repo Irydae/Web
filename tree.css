@@ -1,7 +1,5 @@
 .tree .graph{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	background: black;
 }
 
 .tree .content-wrapper input {
@@ -12,22 +10,18 @@
 
 .tree .rel{
 	position: absolute;
-	/*height: 200px;*/
 	width: 150px;
 }
 
 .tree .r-f{
-	background-image: url("https://rawgit.com/Irydae/Web/master/frame2.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	border-image: url("https://rawgit.com/Irydae/Web/master/frame2.png") 30 stretch;
+	border-image-width: 15px;
 	padding: 10px;
 }
 
 .tree .r-p img{
 	display: block;
-	width: 50%;
-	/*width: 100px;*/
+	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -42,7 +36,6 @@
 	transform-origin: top;
 	height: 0;
 	overflow: auto;
-	width: 100%;
 }
 
 .tree input[type="checkbox"]:checked + .r-d{
