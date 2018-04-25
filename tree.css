@@ -34,10 +34,10 @@
 .tree .r-d {
 	background: rgba(0,0,0,0.7);
 	position: absolute;
-	top: 15px;
+	top: 0;
 	right:0;
 	height: 100px;
-	transition: width 0.25s ease;
+	transition: right 0.25s ease;
 	width: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -45,6 +45,7 @@
 
 .tree .r-d.r-r{
 	left: 0;
+	transition: left 0.25s ease;
 	/*transform-origin: 100% 0;*/
 }
 
