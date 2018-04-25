@@ -17,6 +17,7 @@
 	border-image: url("https://rawgit.com/Irydae/Web/master/frame2.png") 30 stretch;
 	border-image-width: 15px;
 	padding: 10px;
+	z-index: 2;
 }
 
 .tree .r-p img{
@@ -32,12 +33,13 @@
 }
 
 .tree .r-d {
+	z-index: 1;
 	background: rgba(0,0,0,0.7);
 	position: absolute;
 	top: 0;
 	right:0;
 	height: 100px;
-	transition: right 0.25s ease;
+	transition: right 0.25s ease, width 0.25s ease;
 	width: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -45,7 +47,7 @@
 
 .tree .r-d.r-r{
 	left: 0;
-	transition: left 0.25s ease;
+	transition: left 0.25s ease, width 0.25s ease;
 	/*transform-origin: 100% 0;*/
 }
 
